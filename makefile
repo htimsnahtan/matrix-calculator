@@ -7,7 +7,7 @@ SRCS = determinant.cpp readMatrix.cpp main.cpp
 
 HEADERS = determinant.hpp readMatrix.hpp
 
-assignment1: ${OBJS} ${HEADERS}
+matrixCalculator: ${OBJS} ${HEADERS}
 	${CXX} ${SRCS} -o matrixCalculator
 	
 ${OBJS}: ${SRCS}
